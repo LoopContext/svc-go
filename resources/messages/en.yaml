@@ -1,0 +1,37 @@
+group: 10000
+default:
+  short: Unexpected error
+  long: Unexpected message code [{{0}}] was received and was not found in this catalog
+set:
+  0:
+    short: OK
+  1:
+    short: Unexpected error, please verify details
+    long: '{{0}}'
+  2:
+    short: Access denied
+  100:
+    short: Unexpected database error
+    long: 'ID: {{0}} - Error: {{1}}'
+  101:
+    short: Records not found
+    long: 'Records of entity {{0}} have not been found'
+  1300:
+    short: Content-Type header is not application/json
+  1301:
+    short: Request body contains badly-formed JSON (at position {{0}})
+  1302:
+    short: Request body contains badly-formed JSON
+  1303:
+    short: Request body contains an invalid value for the {{0}} field (at position {{1}})
+  1304:
+    short: Request body contains unknown field {{0}}
+  1305:
+    short: Request body must not be empty
+  1306:
+    short: Request body must not be larger than 1MB
+  1307:
+    short: Request body must only contain a single JSON object
+  1400:
+    short: Success with errors
+    long: 'Success with errors. The following {{0}} had errors: {{1}}'
