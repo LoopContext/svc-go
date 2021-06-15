@@ -5,7 +5,7 @@ import (
 	"github.com/loopcontext/svc-go/database"
 	"github.com/loopcontext/svc-go/utils/config"
 	"github.com/loopcontext/svc-go/utils/logger"
-	"github.com/loopcontext/svc-go/web"
+	server "github.com/loopcontext/svc-go/web"
 )
 
 func main() {
